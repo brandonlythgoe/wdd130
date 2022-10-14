@@ -1,0 +1,21 @@
+body {
+    background-color: gray;
+    margin: 0
+    
+
+}
+
+.top img{
+    width: 100%;
+}
+
+.three img{
+    border-radius: 100%;
+    width: 20%;
+    padding: 50px;
+    display: inline-block;
+    margin-left: 65px;
+}
+.three{
+    background-color: gray;
+}
