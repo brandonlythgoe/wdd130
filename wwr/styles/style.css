@@ -195,7 +195,29 @@ footer .social img{
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
              
+.Locations {
+    align-items: center;
+}
+.moab{
+    margin-bottom: 200px;
+    width: 400px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.colorado{
+    margin-bottom: 200px;
+    width: 400px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.salmon{
+    margin-bottom: 200px;
+    width: 400px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -237,5 +259,6 @@ footer .social img{
     footer {
         margin-top: 25px;
     }
+
 }
-     
+
