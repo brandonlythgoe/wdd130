@@ -1,12 +1,12 @@
-body{
+ body{
     max-width: 1600px;
     margin: 0 auto;
     background-color: #fcfbfb;
 }
 header{
-    background-color: rgba(20,30,13, .7);
+    background-color: #003249;
 
-}
+} 
 .logo{
     width: 80px;
 }
@@ -17,34 +17,44 @@ header{
 nav a{
     text-decoration: none;
     text-align: center;
-    background-color: white;
-    color:black
-
-    
+    background-color:#003249;
+    color:white
     
 }
+.footprintsclass{
+    align-items: center;
+    
+}
+.footprints {
+    width: 400px;
+    align-self: center;
+}
+
 nav a:hover{
-    background-color: rgb(205, 70, 178);
-    color:black
+    background-color: #A43312 ;
+    color:#E7C24F ;
     
 
 }
 .book, .join{
     text-decoration: none;
-    background-color: white;
-    color:black
+    color:#003249
     
 }
 .book:hover, .join:hover{
-    background-color: yellow;
-    color:black
+
+    color:#E7C24F;
 }
-.footprint{
-    width: 80px;
+.activites{
+    align-items: center;
 }
+.horse{
+    width: 400px;
+}
+
 h1, h4{
     text-align: center;
-    color: royalblue
+    color: #A43312
 }
 .button-box{
     text-align: center;
@@ -55,25 +65,27 @@ main section {
 }
 
 .msg h2{
-    background-color: lightblue;
+    background-color: #A43312;
+    color: #E7C24F
 }
 .msg p{
-    background-color: lightblue;
-    color: black
+    background-color: #003249;
+    color: white
 }
 footer {
-    background-color: rgb(236, 236, 113);
+    background-color: #A43312;
 }
 footer p{
     font-size: 1.2em;
+    color:#E7C24F;
     
 }
 footer a{
     text-decoration: none;
-    color: black
+    color: #E7C24F
     
 }
 footer a:hover{
     text-decoration: underline;
-    color:royalblue
+    color:#003249
 }
