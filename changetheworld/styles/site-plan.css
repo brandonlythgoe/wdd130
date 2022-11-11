@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--headline-color-on-white);
 }
 h2 {
-  text-align: center;
+  text-align: center; 
 }
 hr {
   height: 3px;
@@ -76,7 +76,7 @@ p {
 .colors th {
   background-color: #999;
 }
-.colors td{
+.colors td{ 
   width: 25%;
   height: 3em;
 }

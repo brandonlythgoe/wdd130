@@ -13,7 +13,7 @@ header{
     background-color: rgba(20,30,13, .7);
     font-family: 'Arial', Times, serif;
 }
-.logo{
+.logo{ 
     width: 80px;
 }
 #logo_link{
@@ -126,7 +126,7 @@ main section img{
     grid-row: 2/3;
 }
 .rivers-card, .camping-card, .rapids-card{
-    margin: 200px;
+    margin: 200px 0;
     
 }
 .card-img{
@@ -217,7 +217,7 @@ footer .social img{
     margin-bottom: 200px;
     width: 400px;
     box-shadow: 5px 5px 10px #6f7364;
-}
+} */
 
 
 
@@ -263,4 +263,3 @@ footer .social img{
     }
 
 }
-
