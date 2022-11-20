@@ -30,6 +30,15 @@ nav a{
     align-self: center;
 }
 
+.cloud{
+    width: 400px;
+    align-self: center;
+}
+
+.cloudsclass{
+    align-items: center;
+    
+}
 nav a:hover{ 
     background-color: #A43312 ;
     color:#E7C24F ;
