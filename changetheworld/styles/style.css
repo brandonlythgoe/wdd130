@@ -54,15 +54,104 @@ nav a:hover{
     margin-top: 100px;
 }
 
+
+.container {
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #003249;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container2 {
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+  }
+.image2 {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  .overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #003249;
+  }
+  
+  .container2:hover .overlay2 {
+    opacity: 1;
+  }
+  
+  .text2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
 .cloud{
     width: 400px;
     align-self: center;
 }
 
-.cloudsclass{
-    align-items: center;
+/* .cloudsclass{ */
+    /* align-items: center; */
     
-}
+/* } */
 
 .book, .join{
     text-decoration: none;
@@ -98,6 +187,7 @@ h1, h4{
 main section {
     text-align: center;
 }
+
 
 .msg h2{
     background-color: #A43312;
