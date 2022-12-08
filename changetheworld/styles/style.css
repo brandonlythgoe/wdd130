@@ -306,5 +306,42 @@ form {
 }
 /* mental health css */
 .mentalhealth{
-    width: 600px;
+    width: 100%;
+}
+
+
+#mental{
+  font-size: 2.5em;
+  text-transform: bold;
+  text-align: center;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  background-color:#003249;
+  color: white;
+  
+}
+.text4 {
+  font-size: 1.2em;
+ text-align: left; 
+ line-height: 2.5em;
+ color:#003249;
+
+ }
+.health-grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.heading{
+  font-size: 30px;
+  color:#003249;
+  
+  
+  
+}
+.list{
+  padding-top: 20px;
+  line-height: 2em;
+  color: #003249;
 }
